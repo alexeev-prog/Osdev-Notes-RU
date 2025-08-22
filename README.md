@@ -1,6 +1,8 @@
 # Osdev Notes на русском
 Перевод книги о том как создавать свои ОС с нуля.
 
+Оригинал доступен по [ссылке](https://github.com/dreamportdev/Osdev-Notes).
+
 ## Главы
 
 * [Часть 0: Введение](00_Introduction/01_README.md)
@@ -9,13 +11,13 @@
 
 ### Не переведено
 
-* [Part 1: Building & Boot Protocols](01_Build_Process/README.md)
-    * [Building a Kernel](01_Build_Process/01_Overview.md)
-    * [Bootloaders and Boot Protocols](01_Build_Process/02_Boot_Protocols.md)
-    * [Makefiles](01_Build_Process/03_Gnu_Makefiles.md)
-    * [Linker Scripts](01_Build_Process/04_Linker_Scripts.md)
-    * [Generating a Bootable Iso](01_Build_Process/05_Generating_Iso.md)
-* [Part 2: Architecture and Basic Drivers](02_Architecture/README.md)
+* [Часть 1: Сборка и правила загрузки](01_Build_Process/README.md)
+    * [Создание ядра](01_Build_Process/01_Overview.md)
+    * [Загрузчики и правила загрузки](01_Build_Process/02_Boot_Protocols.md)
+    * [Makefile](01_Build_Process/03_Gnu_Makefiles.md)
+    * [Скрипты линковки](01_Build_Process/04_Linker_Scripts.md)
+    * [Генерация загружаемоего ISO](01_Build_Process/05_Generating_Iso.md)
+* [Часть 2: Архитектура и базовые драйвера](02_Architecture/README.md)
     * [Overview](02_Architecture/01_Overview.md)
     * [Hello World](02_Architecture/02_Hello_World.md)
     * [A Higher Half Kernel](02_Architecture/03_HigherHalf.md)

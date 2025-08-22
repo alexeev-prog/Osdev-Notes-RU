@@ -1,3 +1,9 @@
+commit db000a8884f4cfddb4ff548adebdf5d7dfbb5c2a
+Author: Alexeev Bronislav <alexeev.dev@mail.ru>
+Date:   Sat Aug 23 05:22:34 2025 +0700
+
+    translate 00_introduction
+
 commit 30ea1fead210ad6ba9cdc57a1d472569b7e7411d
 Author: Immanuel Daviel A. Garcia <34188635+AlexDev404@users.noreply.github.com>
 Date:   Thu Jul 31 08:11:27 2025 -0600

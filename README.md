@@ -1,28 +1,14 @@
-# Osdev Notes
+# Osdev Notes на русском
+Перевод книги о том как создавать свои ОС с нуля.
 
-[![Discord Chat](https://img.shields.io/discord/578193015433330698.svg?style=flat)](https://discordapp.com/channels/578193015433330698/578193713340219392)
-<span class="badge-buymeacoffee">
-<a href="https://buymeacoffee.com/dreamos82" title="Donate to this project using Buy Me A Coffee"><img src="https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg" alt="Buy Me A Coffee donate button" /></a>
-</span>
-![](https://tokei.rs/b1/github/dreamos82/osdev-notes)
+## Главы
 
-A book, originated as a collection of notes, intended to guide a reader through the steps of building an operating system kernel from scratch. Written while writing (and re-writing) our own kernels, each chapter covers a step of the process from selecting a bootloader to running a loaded ELF in userspace.
+* [Часть 0: Введение](00_Introduction/01_README.md)
+    * [Предполагаемые знания](00_Introduction/02_AssumedKnowledge.md)
+    * [Об авторах](00_Introduction/03_AboutTheAuthors.md)
 
-We hope you enjoy, and find something interesting here!
+### Не переведено
 
-The content of this repository is also available as a _**printed book**_, it can be purchased via Lulu:
-* **Paperback**: [Click here](https://www.lulu.com/shop/dean-tuckey-and-ivan-gualandri/osdev-notes/paperback/product-mpzp5v.html?q=osdev+notes&page=1&pageSize=4)
-* **Hardcover**: [Click Here](https://www.lulu.com/shop/dean-tuckey-and-ivan-gualandri/osdev-notes/hardcover/product-je5drpr.html?page=1&pageSize=4)
-
-The [latest-master](https://github.com/dreamportdev/Osdev-Notes/releases/tag/latest-master) release contains the PDF built from master.
-
-You can reach us on Discord: [https://discord.gg/NGasazGkqr](https://discord.gg/NGasazGkqr)
-
-## Current Chapters:
-
-* [Part 0: Introduction](00_Introduction/01_README.md)
-    * [Assumed Knowledge](00_Introduction/02_AssumedKnowledge.md)
-    * [About The Authors](00_Introduction/03_AboutTheAuthors.md)
 * [Part 1: Building & Boot Protocols](01_Build_Process/README.md)
     * [Building a Kernel](01_Build_Process/01_Overview.md)
     * [Bootloaders and Boot Protocols](01_Build_Process/02_Boot_Protocols.md)
@@ -84,29 +70,29 @@ You can reach us on Discord: [https://discord.gg/NGasazGkqr](https://discord.gg/
     * [Useful Resources](99_Appendices/H_Useful_Resources.md)
     * [Acknowledgments](99_Appendices/I_Acknowledgments.md)
 
-## Our Projects
+## Проекты
 
-* [DreamOs64](https://github.com/dreamos82/Dreamos64): 64-bit OS written from scratch by [Ivan G](https://github.com/dreamos82).
-* [Northport](https://github.com/DeanoBurrito/northport): Another 64-bit OS with SMP, and riscv support! by [Dean T](https://github.com/DeanoBurrito/).
-* [DreamOs](https://github.com/dreamos82/Dreamos): 32-bit OS written from scratch. This project is discontinued, but it still worth mentioning. Also by [Ivan G](https://github.com/dreamos82).
+* [DreamOs64](https://github.com/dreamos82/Dreamos64): 64 битная ОС написанная [Ivan G](https://github.com/dreamos82).
+* [Northport](https://github.com/DeanoBurrito/northport): 64 битная ОС с SMT и поддержкой RISC-V [Dean T](https://github.com/DeanoBurrito/).
+* [DreamOs](https://github.com/dreamos82/Dreamos): 32-разрядная ОС, написанная с нуля. Этот проект прекращен, но о нем все равно стоит упомянуть. Написано тоже [Ivan G](https://github.com/dreamos82).
 
-## Authors
+## Авторы
 
-* [Ivan G](https://github.com/dreamos82) (dreamos82) - Author and creator of these notes.
-* [Dean T](https://github.com/DeanoBurrito/) (DeanoBurrito) - Author.
+* [Ivan G](https://github.com/dreamos82) (dreamos82) - Автор и создатель.
+* [Dean T](https://github.com/DeanoBurrito/) (DeanoBurrito) - Автор.
 
-## License
+## Лицензия
 
-The contents (code, text and other assets) of this repository are licensed under the Creative Commons Attribution-NonCommercial 4.0 Public License, see the [LICENSE](LICENSE.md) file for the full text.
+Содержимое (код, текст и другие ресурсы) этого хранилища доступно по лицензии Creative Commons Attribution-Некоммерческая публичная лицензия 4.0, полный текст смотрите в файле [ЛИЦЕНЗИЯ](LICENSE.md).
 
-While not legal advice, this license can be summed up as:
-- You are free to share (copy and redistribute) this material in any medium or format.
-- Adapt (remix, transform and build upon) the material.
+Хотя эта лицензия не является юридической рекомендацией, ее можно кратко охарактеризовать следующим образом:
+- Вы можете свободно делиться (копировать и распространять) этим материалом на любом носителе или в любом формате.
+- Адаптировать (переделывать, трансформировать и дополнять) материал.
 
-Under the following restrictions:
-- You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-- You cannot use the material for commercial uses.
+При соблюдении следующих ограничений:
+- Вы должны предоставить соответствующую информацию, предоставить ссылку на лицензию и указать, были ли внесены изменения.
+- Вы не можете использовать этот материал в коммерческих целях.
 
-Note that no warranties of any kind are provided.
+Обратите внимание, что мы не предоставляем никаких гарантий любого рода.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>

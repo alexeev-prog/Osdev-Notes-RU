@@ -1,13 +1,13 @@
-## Assumed Knowledge
+## Предполагаемые знания
 
-This book is written for beginners in operating system development, but some prior experience with programming is recommended. It is not intended to teach you C, or how to use a compiler or linker.
+Эта книга написана для начинающих разработчиков операционных систем, но рекомендуется иметь некоторый опыт программирования. Она не предназначена для обучения языку Си или использованию компилятора или компоновщика.
 
-Code can have bugs and freestanding code can be hard (or impossible) to debug in some cases. Some hardware does not include serial ports, real CPUs can have bugs in hardware, or architectural quirks you're unaware of that interfere with developing for them.
+В коде могут быть ошибки, и в некоторых случаях отладка автономного кода может быть сложной (или невозможной). В некоторых аппаратных средствах отсутствуют последовательные порты, в реальных процессорах могут быть аппаратные ошибки или архитектурные особенности, о которых вы не знаете, которые мешают разработке для них.
 
-As such, below is a list of the recommended prior experience before continuing with this book:
+Таким образом, ниже приведен список рекомендуемого предыдущего опыта, прежде чем продолжить чтение этой книги:
 
-- Intermediate understanding of the C programming language. Mastery is not required, but you should be very familiar with the ins and outs of the language, especially pointers and pointer arithmetic.
-- You should be comfortable compiling and debugging code in userspace. GDB is recommended as several emulators provide a GDB server you can use to step through your kernel.
-- Knowledge and experience using common data structures like intrusive linked lists. While we may use array notation at several points to help visualize what's going on, you won't want to place arbitrary limits on your kernel by using fixed size arrays.
+- Среднее понимание языка программирования Си. Владение им не требуется, но вы должны быть хорошо знакомы со всеми тонкостями языка, особенно с указателями и арифметикой с указателями.
+- Вам должно быть удобно компилировать и отлаживать код в пользовательском пространстве. Рекомендуется использовать GDB, поскольку несколько эмуляторов предоставляют сервер GDB, который вы можете использовать для пошагового использования вашего ядра.
+- Знания и опыт использования распространенных структур данных, таких как навязчивые связанные списки. Хотя мы можем использовать обозначение массива в нескольких местах, чтобы помочь визуализировать происходящее, вы не захотите накладывать произвольные ограничения на свое ядро, используя массивы фиксированного размера.
 
-If you feel confident in your knowledge of the above, please read on! If not, don't be discouraged. There are plenty of resources available for learning, and you can always come back later.
+Если вы уверены в своих знаниях по вышеуказанному вопросу, пожалуйста, продолжайте читать! Если нет, не расстраивайтесь. Существует множество ресурсов, доступных для изучения, и вы всегда можете вернуться к ним позже.
